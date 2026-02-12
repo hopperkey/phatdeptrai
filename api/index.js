@@ -111,7 +111,7 @@ async function initializeTables(client) {
 
     await client.query(`
       INSERT INTO supports (user_id, added_by) 
-      VALUES ('1384423770063765576', 'system')
+      VALUES ('techdavisk007', 'system')
       ON CONFLICT (user_id) DO NOTHING
     `);
 
@@ -122,7 +122,7 @@ async function initializeTables(client) {
   }
 }
 
-const MAIN_ADMIN_ID = '1384423770063765576';
+const MAIN_ADMIN_ID = 'techdavisk007';
 const MAX_APPS_FOR_SUPPORT = 10;
 
 module.exports = async (req, res) => {
