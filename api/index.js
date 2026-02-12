@@ -122,7 +122,7 @@ async function initializeTables(client) {
   }
 }
 
-const MAIN_ADMIN_ID = 'techdavisk007';
+const MAIN_ADMIN_ID = '23082007';
 const MAX_APPS_FOR_SUPPORT = 10;
 
 module.exports = async (req, res) => {
