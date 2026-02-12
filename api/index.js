@@ -111,7 +111,7 @@ async function initializeTables(client) {
 
     await client.query(`
       INSERT INTO supports (user_id, added_by) 
-      VALUES ('techdavisk007', 'system')
+      VALUES ('23082007', 'system')
       ON CONFLICT (user_id) DO NOTHING
     `);
 
